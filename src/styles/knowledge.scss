@@ -1,0 +1,48 @@
+@use 'global.scss';
+
+.knowledge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  padding: 5rem 0;
+
+  .title {
+    padding-bottom: 0.5rem;
+  }
+
+  &__skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1rem 0;
+
+    &__item {
+      display: flex;
+      justify-content: center;
+
+      padding: 1.5rem 0;
+
+      background-color: var(--red-500);
+      border: 1px solid var(--red-500);
+      border-radius: 8px;
+
+      transition: 0.3s;
+
+      &:hover {
+        border: 1px solid var(--white);
+        background-color: transparent;
+
+        img {
+          transform: scale(110%);
+        }
+      }
+
+      img {
+        width: 3rem;
+
+        transition: 0.3s;
+      }
+    }
+  }
+}

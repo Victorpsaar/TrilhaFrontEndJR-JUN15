@@ -1,0 +1,68 @@
+@use 'global.scss';
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 1rem;
+  gap: 1.5rem;
+
+  background-color: var(--gray-800);
+  border-radius: 8px;
+
+  
+  &__avatar {
+    width: 35%;
+  
+    border-radius: 8px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__subTitle {
+      padding: 0.5rem 0 1.5rem 0;
+
+      font-size: 1.2rem;
+      color: var(--gray-100);
+      opacity: 0.7;
+    }
+
+    &__text {
+      font-size: 1rem;
+      line-height: 1.3;
+      padding-bottom: 1rem;
+    }
+
+    &__list {
+      display: flex;
+      
+      gap: 1rem;
+
+      &__item {
+        padding: 1rem;
+        background-color: var(--red-500);
+
+        border: 1px solid var(--red-500);
+        border-radius: 8px;
+
+        transition: 0.3s;
+
+        &:hover {
+          border: 1px solid var(--white);
+          background-color: transparent;
+        }
+
+        img {
+          width: 2rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@use 'global.scss';
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  padding-top: 1rem;
+
+  &__container {
+    border-radius: 8px;
+
+    background-color: var(--gray-800);
+    padding: 1rem;
+
+    .emphasis {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .btn {
+    padding: 0.5rem 1.8rem;
+
+    border-radius: 8px;
+    border: 1px solid var(--red-500);
+    background-color: var(--red-500);
+
+    color: var(--gray-100);
+    font-weight: bold;
+
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid var(--white);
+      background-color: transparent;
+    }
+  }
+}

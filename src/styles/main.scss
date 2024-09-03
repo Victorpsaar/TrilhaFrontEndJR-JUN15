@@ -1,2 +1,14 @@
 @use 'global.scss';
 @use 'navbar.scss';
+@use 'hero.scss';
+
+.main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: var(--red-500);
+}

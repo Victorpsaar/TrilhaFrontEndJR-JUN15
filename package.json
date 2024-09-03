@@ -1,0 +1,16 @@
+{
+  "name": "trilhafrontendjr-jun15",
+  "version": "1.0.0",
+  "description": "![Código Certo Coders](https://utfs.io/f/3b2340e8-5523-4aca-a549-0688fd07450e-j4edu.jfif)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass -w ./src/styles/main.scss  ./dist/styles/main.css",
+    "build": "sass ./src/styles/main.scss  ./dist/styles/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}

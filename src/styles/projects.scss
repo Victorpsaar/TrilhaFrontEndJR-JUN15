@@ -19,6 +19,7 @@
   }
 
   .btn {
+    display: inline-block;
     padding: 0.7rem 2rem;
 
     border-radius: 8px;
@@ -27,6 +28,7 @@
 
     color: var(--gray-100);
     font-weight: bold;
+    text-decoration: none;
 
     transition: 0.3s;
     cursor: pointer;

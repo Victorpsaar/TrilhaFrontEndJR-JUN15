@@ -26,6 +26,24 @@
   box-shadow: 0 0 0 2px var(--red-500);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--red-500);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--gray-900);
+}
+
 body {
   background-color: var(--gray-900);
   color: var(--white);

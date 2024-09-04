@@ -9,6 +9,7 @@
   left: 0;
 
   z-index: 10;
+  margin-bottom: calc(0px - 1.5rem);
 }
 
 .navbar {
@@ -18,7 +19,7 @@
 
   max-width: 1024px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem;
 
   &__title {
     font-size: 1.5rem;
@@ -45,12 +46,4 @@
       }
     }
   }
-}
-
-.footer {
-  text-align: center;
-
-  padding: 1rem;
-
-  background-color: var(--gray-800);
 }

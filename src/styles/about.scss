@@ -2,10 +2,11 @@
 
 .about {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   
   padding: 1.5rem;
-  margin: 4rem 0;
+  margin: 6rem 0;
   gap: 1.5rem;
 
   background-color: var(--gray-800);
@@ -14,7 +15,7 @@
   
   &__avatar {
     width: 35%;
-  
+    height: 80%;
     border-radius: 8px;
   }
 

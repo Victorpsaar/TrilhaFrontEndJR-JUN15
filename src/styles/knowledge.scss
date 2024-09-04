@@ -4,11 +4,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-
+  
   padding: 5rem 0;
 
+  @media (max-width: 1024px) {
+    display: block;
+  }
+  
   #knowledgeText {
-    transition: 0.5s;
+    display: block;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 
   .title {
@@ -20,6 +28,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
     padding: 1rem 0;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
     &__item {
       display: flex;
@@ -44,7 +56,7 @@
 
       img {
         width: 3rem;
-
+    
         transition: 0.3s;
       }
     }

@@ -9,7 +9,6 @@
   left: 0;
 
   z-index: 10;
-  margin-bottom: calc(0px - 1.5rem);
 }
 
 .navbar {
@@ -19,7 +18,11 @@
 
   max-width: 1024px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 
   &__title {
     font-size: 1.5rem;
@@ -31,6 +34,10 @@
     align-items: center;
 
     gap: 1rem;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
 
     &__item {
       text-decoration: none;

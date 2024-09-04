@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,15 +11,20 @@
   <link rel="stylesheet" href="../dist/styles/main.css">
 </head>
 <body>
+
   <header class="header">
+
     <nav class="navbar">
       <h1 class="navbar__title">Porto_Code</h1>
+
       <div class="navbar__link">
         <a href="#home" class="navbar__link__item">Home</a>
         <a href="#about" class="navbar__link__item">Sobre</a>
         <a href="#projects" class="navbar__link__item">Projetos</a>
       </div>
+
     </nav>
+
   </header>
 
   <main class="main">
@@ -35,7 +40,7 @@
           profissional que vão destacar seu produto no mercado.
         </p>
 
-        <a class="hero__container__btn hidden" href="../public/Curriculo.pdf" download="">Curriculo</a>
+        <a class="btn hidden" href="../public/Curriculo.pdf" download="">Curriculo</a>
 
         <img class="hero__container__background hidden" src="./assets/javascript.svg" alt="">
       </div>
@@ -43,7 +48,8 @@
     </section>
 
     <section class="about hidden-right" id="about">
-      <img class="about__avatar" src="https://github.com/victorpsaar.png" alt="" >
+
+      <img class="about__avatar hidden-right" src="https://github.com/victorpsaar.png" alt="" >
 
       <div class="about__container">
 
@@ -57,17 +63,17 @@
         Tenho grande paixão pela área de TI, na qual venho aprendendo desdos 12 anos. 
         </p>
 
-        <ul class="about__container__list">
-          <a class="about__container__list__item" target="_blank" href="https://github.com/Victorpsaar">
+        <ul class="about__container__list hidden-right">
+          <a class="about__container__list__item hidden-right" target="_blank" href="https://github.com/Victorpsaar">
             <img src="./assets/github.svg" alt="">
           </a>
-          <a class="about__container__list__item" target="_blank" href="https://www.linkedin.com/in/victor-porto-701285307/">
+          <a class="about__container__list__item hidden-right" target="_blank" href="https://www.linkedin.com/in/victor-porto-701285307/">
             <img src="./assets/linkedin.svg" alt="">
           </a>
-          <a class="about__container__list__item" target="_blank" href="https://wa.me/5521978992959">
+          <a class="about__container__list__item hidden-right" target="_blank" href="https://wa.me/5521978992959">
             <img src="./assets/whatsapp.svg" alt="">
           </a>
-          <a class="about__container__list__item" target="_blank" href="https://www.instagram.com/porto__py?igsh=aXlyNmF2cHRnb3h0">
+          <a class="about__container__list__item hidden-right" target="_blank" href="https://www.instagram.com/porto__py?igsh=aXlyNmF2cHRnb3h0">
             <img src="./assets/instagram.svg" alt="">
           </a>
         </ul>
@@ -76,9 +82,9 @@
 
     </section>
 
-    <section id="projects hidden">
+    <section id="projects" class="hidden">
 
-      <h2 class="title hidden">Projetos</h2>
+      <h2 class="title">Projetos</h2>
 
       <div class="projects hidden">
         <div class="projects__container hidden">
@@ -108,8 +114,7 @@
         <p class="text" id="knowledgeText">"Passe o mouse sobre um dos icones!"</p>
       </div>
 
-      <ul class="knowledge__skills">
-  
+      <ul class="knowledge__skills hidden-right"> 
         <li class="knowledge__skills__item" id="html">
           <img src="./assets/language/html.svg" alt="">
         </li>
@@ -143,7 +148,6 @@
         <li class="knowledge__skills__item" id="bs">
           <img src="./assets/language/bootstrap.svg" alt="">
         </li>
-
       </ul>
 
     </section>
@@ -153,6 +157,7 @@
   <footer class="footer">
     <p class="emphasis">&copy;Porto_code 2024.</p>
   </footer>
+
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <script src="./scripts/main.js"></script>
 </body>

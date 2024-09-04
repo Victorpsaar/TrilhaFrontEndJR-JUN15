@@ -12,11 +12,19 @@
   background-color: var(--gray-800);
   border-radius: 8px;
 
+  @media (max-width: 768px) {
+    display: block;
+  }
   
   &__avatar {
     width: 35%;
     height: 80%;
     border-radius: 8px;
+
+    @media (max-width: 768px) {
+      width: 80%;
+      margin: 1rem auto;
+    }
   }
 
   &__container {
